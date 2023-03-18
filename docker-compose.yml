@@ -1,0 +1,11 @@
+version: '3.0'
+services:
+  mysql:
+    container_name: cafeincode-mysql
+    image: mysql:5.7
+    ports:
+      - 3308:3306
+    environment:
+      MYSQL_DATABASE: "cafeincode_schema"
+      MYSQL_ROOT_PASSWORD: "123456789"
+      MYSQL_ALLOW_EMPTY_PASSWORD: "true"
