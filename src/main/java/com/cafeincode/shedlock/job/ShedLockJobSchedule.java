@@ -29,6 +29,6 @@ public class ShedLockJobSchedule {
 
     private void writeLog() throws InterruptedException {
         log.info("[Job] started schedule job with shedlock by cafeincode");
-        Thread.sleep(5000);
+        Thread.sleep(10000);
     }
 }
